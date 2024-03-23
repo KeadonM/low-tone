@@ -2,5 +2,6 @@
   "workbench.colorCustomizations": {
     "minimap.background": "#00000010",
     "scrollbar.shadow": "#00000010"
-  }
+  },
+  "explorer.excludeGitIgnore": true
 }

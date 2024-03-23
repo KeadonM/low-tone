@@ -3,18 +3,22 @@ body {
     Arial, sans-serif;
   margin: auto;
   max-width: 38rem;
-  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
 main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 12px;
 }
 
 h1 {
   text-align: center;
-  line-height: 0;
+  /* line-height: 0; */
+  margin: 0;
 }
 
 .row {

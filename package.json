@@ -1,8 +1,8 @@
 {
-  "name": "tone-app-rebuild",
-  "productName": "tone-app-rebuild",
+  "name": "tone-app",
+  "productName": "tone-app",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "An app to generate a low tone",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",

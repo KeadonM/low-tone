@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <title>Tone Generator</title>
-    <meta
+    <!-- <meta
       http-equiv="Content-Security-Policy"
       content="script-src 'self' 'unsafe-inline';"
-    />
-    <link rel="stylesheet" href="./src/index.css" />
-    <script src="script.js" defer></script>
+    /> -->
+    <link rel="stylesheet" href="/src/index.css" />
+    <script type="module" src="/src/script.ts" defer></script>
   </head>
   <body>
     <main>
@@ -17,14 +17,7 @@
       <div class="input-container row">
         <label for="freq">
           <span>Frequency</span>
-          <input
-            type="number"
-            id="freq"
-            value="10"
-            min="1"
-            max="200"
-            step="1"
-          />
+          <input type="number" id="freq" value="10" min="1" max="20" step="1" />
         </label>
 
         <label for="vol"
@@ -34,7 +27,7 @@
             id="vol"
             value="0.15"
             min="0"
-            max="1"
+            max="0.3"
             step="0.01"
           />
         </label>
@@ -47,3 +40,18 @@
     </main>
   </body>
 </html>
+
+<!-- 
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World!</title>
+
+  </head>
+  <body>
+    <h1>💖 Hello World!</h1>
+    <p>Welcome to your Electron application.</p>
+    <script type="module" src="/src/renderer.ts"></script>
+  </body>
+</html> -->
